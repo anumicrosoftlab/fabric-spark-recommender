@@ -1,0 +1,11 @@
+setup.py
+spark_app_analyzer/__init__.py
+spark_app_analyzer/core.py
+spark_app_analyzer/metrics.py
+spark_app_analyzer/predictor.py
+spark_app_analyzer/recommendations.py
+spark_app_analyzer.egg-info/PKG-INFO
+spark_app_analyzer.egg-info/SOURCES.txt
+spark_app_analyzer.egg-info/dependency_links.txt
+spark_app_analyzer.egg-info/requires.txt
+spark_app_analyzer.egg-info/top_level.txt
