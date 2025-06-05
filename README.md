@@ -22,3 +22,19 @@ pip install spark_app_analyzer-0.1.0-py3-none-any.whl
 
 Or upload to environment and publish.
 
+## Usage
+
+from spark_app_analyzer import analyze
+
+eventlog_path = "onelake path"
+artifact_type = "SynapseNotebook"
+
+app_metadata_df, stage_summary_df, metrics_df, predictions_df, recommendations_df = analyze(eventlog_path, artifact_type)
+
+app_metadata_df.show()
+stage_summary_df.show()
+metrics_df.show()
+predictions_df.show()
+recommendations_df.show()
+
+
