@@ -1,1 +1,0 @@
-spark_app_analyzer
