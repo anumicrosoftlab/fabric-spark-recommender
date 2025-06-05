@@ -24,6 +24,7 @@ Or upload to environment and publish.
 
 ## Usage
 
+~~~ python
 from spark_app_analyzer import analyze
 
 eventlog_path = "onelake path"
@@ -33,6 +34,7 @@ app_metadata_df, stage_summary_df, metrics_df, predictions_df, recommendations_d
 
 app_metadata_df.show()
 stage_summary_df.show()
+~~~
 metrics_df.show()
 predictions_df.show()
 recommendations_df.show()
